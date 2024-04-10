@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+
+        //Задача 1
+        /*let num1 = (prompt('Введите первую переменную'));
+        let num2 = (prompt('Введите вторую переменную'));
+        (num1 == 1 || num1 < 1) ? (console.log('первая переменная равна или меньше 1')) : (console.log('первая переменная больше 1, либо вы ввели не число'));
+        (num2 == 3 || num2 > 3) ? (console.log('вторая переменная равна или больше 3')) : (console.log('вторая переменная меньше 3, либо вы ввели не число'));*/
+        /*Задача 2
+            Перепишите код к тернарному оператору
+
+            let test = true;
+            if (test === true) {
+            console.log('+++');
+            } else {
+            console.log('---');
+            }*/
+        /*let test = true;
+        (test===true)?(console.log('+++')):(console.log('---'));*/
+
+        /*Задача 3 В переменной day лежит какое-то число из интервала от 1 до 31. Определите в какую декаду месяца попадает это число (в первую, вторую или третью).*/
+
+        let day = Number(prompt('Введите число месяца от 1 до 31'))
+        if (day < 1 && day > 31) {
+            console.log('Вы ввели число не из диапазона');
+        } else if (day >= 1 && day <= 10) {
+            console.log('Введенное число попадает в первую декаду месяца');
+        } else if (day >= 11 && day <= 20) {
+            console.log('Введенное число попадает во вторую декаду месяца');
+        } else if (day >= 21 && day <= 31) {
+            console.log('Введенное число попадает в третью декаду месяца');
+        }
+    </script>
+</body>
+
+</html>
