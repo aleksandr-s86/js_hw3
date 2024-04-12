@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        /*let userName = prompt('Введите имя пользователя');
+        let userSurname = prompt('Введите фамилию пользователя');
+        let userAge = prompt('Введите возраст пользователя');
+        function hello(userName, userSurname, userAge) {
+            console.log(`Привет ${userName} ${userSurname} c возврастом ${userAge} лет`);
+        }
+        hello(userName, userSurname, userAge);*/
+        /*let num = Number(prompt('Введите ваше число'));*/
+        /*function squareNum(num) {
+            console.log(`Квадрат числа равен ${num ** 2}`);
+        }
+        squareNum(num);
+        /*let num = Number(prompt('Введите ваше число'));
+        function signNum(num) {
+            if (num<0) {
+                console.log('---');
+            } else {
+                console.log('+++');
+            }
+        }
+        signNum(num);*/
+        /*let a = Number(prompt('Введите первое число'));
+        let b = Number(prompt('Введите второе число'));
+        let c = Number(prompt('Введите третье число'));*/
+        /*function sum(a, b, c) {
+            console.log(`Сумма чисел равна ${a + b + c}`);
+        }
+        //sum(a, b, c)
+
+        let param1 = 1;
+        let param2 = 2;
+        let param3 = 3;
+      
+        sum(param1, param2, param3);*/
+        /*function square(num) {
+            return(Math.sqrt(num)); 
+        }
+        console.log( Math.round (square(4) + square(3)));*/
+        function min(num1, num2) {
+            if (num1 < num2) {
+                console.log(`Минимальное число ${num1}`);
+
+            } else {
+                console.log(`Минимальное число ${num2}`);
+            }
+        }
+        min(2, 5);
+
+        function dayOfWeek(numDay) {
+            switch (numDay) {
+                case 1:
+                    return 'Понедельник'
+                    break;
+                case 2:
+                    return 'Вторник'
+                    break;
+                case 3:
+                    return 'Среда'
+                    break;
+                case 4:
+                    return 'Четверг'
+                    break;
+                case 5:
+                    return 'Пятница'
+                    break;
+                case 6:
+                    return 'Суббота'
+                    break;
+                case 7:
+                    return 'Воскресенье'
+                    break;
+
+                default: return 'Число не от 1 до 7'
+                    break;
+            }
+        }
+
+        console.log(dayOfWeek(8));
+
+
+        function goodDay(time, name) {
+            let dayInfo;
+            if (time <= 5 && time >= 22) {
+                console.log(`Доброй ночи ${name}`);
+            } else if (time > 5 && time <= 12) {
+                console.log(`Доброе утро ${name}`);
+            } else if (time > 12 && time <= 17) {
+                console.log(`Добрый день ${name}`);
+            } else {
+                console.log(`Добрый вечер ${name}`);
+            }
+        }
+        goodDay(23, 'Иван');
+
+    </script>
+</body>
+
+</html>
